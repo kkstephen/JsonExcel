@@ -101,10 +101,7 @@ namespace JsonExcel
                             obj.Add(header[j].ToString(), cell.ToString()); 
                         }
                     }
-
-                    obj.Add("CampaignId", "EVMK");
-                    obj.Add("Status", "pending");
-
+ 
                     list.Add(obj);
                 }
             } 
